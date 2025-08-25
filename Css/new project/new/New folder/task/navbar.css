@@ -1,0 +1,208 @@
+body{
+    background-color: rgb(28, 102, 28);
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.navbar{
+    display: flex;
+    gap: 30px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.navbar img{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+
+}
+.navbar a{
+    color: black;
+ text-decoration: none;
+ text-align: center;
+ 
+}
+.logo{
+    font-size: 20px;
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+}
+.logo img{
+    border-radius: 90px;
+}
+.salebuy{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    font-weight: bold;
+    font-size: 20px;
+}
+input {
+   width: 250px;
+   height: 20px;
+   border-radius: 20px;
+   
+}
+
+.fullcards .order{
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    text-align: center;
+    color: aliceblue;
+   padding: 20px;
+   margin: auto;   
+}
+
+.cards img{
+    width: 200px;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+    overflow: scroll;
+}
+
+.cards
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.fullcards{
+    background-color: rgb(20, 67, 19);
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+    height: 250px;
+    width: 1000px;
+    padding: 20px;
+    margin: auto;  
+}
+.money{
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+
+}
+.fruits{
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(20, 67, 19);
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+    margin: auto;
+    padding: 20px;
+    color: aliceblue;
+}
+.rowimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.rowimg img{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+}
+.price{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 160px;
+}
+.row{
+    text-align: center;
+}
+.fruits{
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(20, 67, 19);
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+    margin: auto;
+    padding: 20px;
+    color: aliceblue;
+    gap: 20px;
+}
+.rowimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.rowimg img{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+}
+.price{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 160px;
+}
+.row{
+    text-align: center;
+}
+
+.graps{
+    width: 1000px;
+    height: 250px;
+    background-color: rgb(20, 67, 19);
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 120px;
+    color: aliceblue;
+}
+.rowimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.rowimg img{
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px black;
+    
+}
+.price{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 160px;
+}
+.row{
+    text-align: center;
+}
+
+footer h5{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+}
+
+
+

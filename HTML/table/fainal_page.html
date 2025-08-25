@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page </title>
+</head>
+<body>
+    <section style="display: flex 100px;background-color: rgb(29, 29, 78);" >
+        <center>
+        <div>
+            <img src="../../HTML/table/img/logo.png" alt="" width="100">
+        </div> 
+        <h1 style="color: aliceblue;">Alagappa University</h1>
+        <form action="../table/table_.html" autocomplete="on" style="color: aliceblue;">
+            <h1>Application page </h1>
+            <label for="firstname">Enter your first name </label>
+            <input type="text" placeholder="Enter your first name" maxlength="250" minlength="10" required/>
+            <br><br>
+            <label for="secondname">Enter your second name </label>
+            <input type="text" placeholder="Enter your second name" maxlength="250" minlength="10" required/>
+            <br><br>
+            <label for="email">Enter your first name </label>
+            <input type="email" placeholder="id@gmail.com" required/>
+            <br><br>
+            <label for="password">Password </label>
+            <input type="password" placeholder="pass key" maxlength="8" max="20" required/>
+            <small> One special characters is compulsory</small>
+            <br><br>
+            <label for="dob">Date of birth</label>
+            <input type="date"required>
+            <br><br>
+            <label for="age">Age</label>
+            <input type="number" placeholder="Enter your age" min="18" required>
+            <br><br>
+            <label for="mobile">Enter our mobile number</label>
+            <input type="tel" placeholder="Enter your mobile number" max="10" required>
+            <br><br>
+            <label for="qualification">Qualification</label>
+            <select>
+            <option value="10"> SSLC </option>
+            <option value="12">HSC</option>
+            <option value="ug">UNDER GRADUVATE</option>
+            <option value="pg">POST GRADUVATE</option>
+            <option value="phd">PHT</option>
+            <br><br>
+            </select>
+            <br><br>
+            <label for="file">Documentes</label>
+            <input type="file" required>
+            <br><br>
+            <label for="gender">Gender</label>
+            <br>
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender">
+            <label for="female">Female</label>
+            <input type="radio" name="Gender">
+            <label for="others">Others</label>
+            <input type="radio" name="Gender">
+            <br><br>
+            <p>Choose your skills</p>
+            <label for="skill">HTML</label>
+            <input type="checkbox" name="skill">
+            <label for="skill">CSS</label>
+            <input type="checkbox" name="skill">
+            <label for="skill">JS</label>
+            <input type="checkbox" name="skill">
+            <label for="skill">JAVA</label>
+            <input type="checkbox" name="skill">
+            <br><br>
+            <label for="color">Choose your favorite color</label>
+            <input type="color">
+            <br><br>
+            <input type="submit" name="submit" value="Login" style="color: crimson;"">
+            <input type="reset"name="reset" value="Reset" style="color: brown;">
+
+            
+        </form>
+        </center>
+    </section>
+</body>
+</html>
